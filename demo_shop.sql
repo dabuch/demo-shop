@@ -125,11 +125,6 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `usertype`) VALUES
-(1, 'Kennomej', 'info@kennomej.com', '1234', 'admin'),
-(2, 'abuchi', 'abuchiogbodo@gmail.com', '', 'admin'),
-(3, 'abuchi', 'abuchiogbodo@gmail.com', '$2y$10$BbwNLQhxjZ3oP', 'admin'),
-(4, 'kennomej', 'info@kennomej.com', '$2y$10$YmaeR9ErDS0Ns', 'admin'),
-(5, 'oliver', 'oliver@gmail.com', '$2y$10$7.UsTU4Qk.9X9', 'admin'),
 (6, 'test', 'test@mail.com', '$2y$10$ImRsiWY5T9/c1', 'admin'),
 (7, 'test2', 'test2@mail.com', '1234', 'admin'),
 (8, 'test3', 'test3@mail.com', '7110eda4d09e062aa5e4', 'admin'),
